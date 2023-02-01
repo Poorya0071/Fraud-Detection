@@ -14,3 +14,6 @@ This project aims to classify the fraud and healthy transactions in the provided
 -Unsupervised methods, Anomaly Detection.
 
 -Compare the results
+
+# Scaled Data or Original Data?
+Let's see whether the scaled dataset works better for the machine learning models or the original one. 
