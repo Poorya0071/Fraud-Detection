@@ -73,4 +73,27 @@ K-Nearest Neighbor	===>      99%,	   81%
 
 ![myimage](svm.png) 
 
+# Deep Learning Model, Deep Neural Network(DNN)
 
+In the context of Machine Learning, it has been determined that the best performance on the original dataset can be achieved using a scaled and oversampled dataset. The aim of this report is to implement deep learning models using this optimized dataset.
+
+### The following method will be used to achieve this goal:
+
+1- Apply a Learning Rate Scheduler callback in TensorFlow to find the optimal learning rate for the model.
+
+2- Implement early stopping and model checkpoint callbacks to prevent overfitting and save the model with the lowest loss respectively.
+
+3- Train the model on both the train and validation data.
+
+4- Evaluate the model on the original dataset and present the results by plotting a confusion matrix.
+
+By following this method, we hope to achieve a deep learning model with improved performance on the original dataset.
+
+![myimage](dnn_oversample.png)
+
+# SemiSupervised Methods: **AutoEncoder**
+
+### Method: 
+In the following steps, the AutoEncoder model is fit to an oversampled and scaled dataset. The model is then used to make predictions on the scaled dataset, resulting in a new set of predicted data. Finally, the most accurate Deep Learning model is utilized to identify fraud transactions on the original test data.
+
+![myimage](autoencode.png)
