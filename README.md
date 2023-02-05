@@ -96,4 +96,6 @@ By following this method, we hope to achieve a deep learning model with improved
 ### Method: 
 In the following steps, the AutoEncoder model is fit to an oversampled and scaled dataset. The model is then used to make predictions on the scaled dataset, resulting in a new set of predicted data. Finally, the most accurate Deep Learning model is utilized to identify fraud transactions on the original test data.
 
-![myimage](Results/autoencode.png)
+![myimage](Results/autoencode1.png)     ![myimage](Results/autoencode2.png)
+
+The left image depicts the prediction process on the scaled test data directly following the utilization of the autoencoder. On the other hand, the right image represents the application of the autoencoder on the oversampled train and test data, followed by training a simple DNN model, and finally evaluating and making predictions on the scaled dataset. It can be concluded that the autoencoder exhibits effective performance.
