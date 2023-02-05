@@ -17,7 +17,7 @@ This project aims to classify the fraud and healthy transactions in the provided
 
 # Scaled Data or Original Data?
 Let's see whether the scaled dataset works better for the machine learning models or the original one. 
-![myimage](cm_org.png)          ![myimage](cm_scaled.png) 
+![myimage](Results/cm_org.png)          ![myimage](Results/cm_scaled.png) 
 
 The left confusion matrix represents the original dataset, and the right one is for the scaled dataset. As we can see, the results for the scaled dataset has fewer false negative. Then, we use the scaled dataset for the rest of the project.
 
@@ -28,7 +28,7 @@ The data for the targets are not balanced. 284315 for no fraud transactions and 
 # Machine Learning Results on Undersampled dataset:
 After applying the undersampling method to the dataset and implementing several machine learning algorithms, we found these results on the original test dataset.
 
-![myimage](output.png) 
+![myimage](Results/output.png) 
 
 	                Accuracy Precision
   
@@ -47,12 +47,12 @@ K-Nearest Neighbor	===>      90%,	   91%
 
 ### The best model for the undersampled dataset is Random Forest. Let's Visualise the confusion matrix for the model.
 
-![myimage](random_forest.png) 
+![myimage](Results/random_forest.png) 
 
 # Machine Learning Results on Oversampled dataset:
 After applying the Oversampling method to the dataset and implementing several machine learning algorithms, we found these results on the original test dataset.
 
-![myimage](over.png) 
+![myimage](Results/over.png) 
 
 	                Accuracy Precision
   
@@ -71,7 +71,7 @@ K-Nearest Neighbor	===>      99%,	   81%
 
 ### The best model for the Oversampled dataset is Support Vector Machines. Let's Visualise the confusion matrix for the model.
 
-![myimage](svm.png) 
+![myimage](Results/svm.png) 
 
 # Deep Learning Model, Deep Neural Network(DNN)
 
@@ -89,11 +89,11 @@ In the context of Machine Learning, it has been determined that the best perform
 
 By following this method, we hope to achieve a deep learning model with improved performance on the original dataset.
 
-![myimage](dnn_oversample.png)
+![myimage](Results/dnn_oversample.png)
 
 # SemiSupervised Methods: **AutoEncoder**
 
 ### Method: 
 In the following steps, the AutoEncoder model is fit to an oversampled and scaled dataset. The model is then used to make predictions on the scaled dataset, resulting in a new set of predicted data. Finally, the most accurate Deep Learning model is utilized to identify fraud transactions on the original test data.
 
-![myimage](autoencode.png)
+![myimage](Results/autoencode.png)
