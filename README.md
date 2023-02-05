@@ -1,6 +1,6 @@
 # Fraud Detection By Machine Learning and Deep Learning
 
-This project aims to classify the fraud and healthy transactions in the provided dataset by kaggle.
+This project aims to classify the fraud and normal transactions in the provided dataset by kaggle.
 
 ### Road Map
 
